@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #d3d3d3;
+  padding-left: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 10px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.header__title {
+  font-size: 20px;
+}
+
+.header__user {
+  display: flex;
+}
+
+.header__user-name {
+  font-size: 20px;
+  font-weight: 500;
+}
