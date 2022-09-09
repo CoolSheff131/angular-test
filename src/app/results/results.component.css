@@ -1,0 +1,25 @@
+.results {
+  max-width: 980px;
+  margin: 0 auto;
+  box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, 0.2);
+
+  padding: 20px;
+
+  height: 100%;
+}
+
+.results__breadcrumbs {
+  font-size: 12px;
+  color: #555;
+}
+
+.results__title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.results__footer {
+  display: flex;
+  justify-content: space-between;
+}
