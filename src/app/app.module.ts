@@ -8,6 +8,7 @@ import { ResultsComponent } from './results/results.component';
 import { EditTestComponent } from './edit-test/edit-test.component';
 import { Routes, RouterModule } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
+import { QuestionComponent } from './components/question/question.component';
 
 const routes: Routes = [
   { path: '', component: MainComponent },
@@ -24,6 +25,7 @@ const routes: Routes = [
     ResultsComponent,
     EditTestComponent,
     HeaderComponent,
+    QuestionComponent,
   ],
   imports: [BrowserModule, RouterModule.forRoot(routes)],
   providers: [],

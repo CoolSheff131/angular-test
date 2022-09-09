@@ -1,0 +1,29 @@
+.question {
+  padding: 5px;
+}
+
+.question__images {
+  display: flex;
+
+  gap: 20px;
+}
+
+.question__images-item {
+  height: 100px;
+  width: 150px;
+  background-color: #aaa;
+}
+
+.question__images {
+  margin-top: 10px;
+}
+
+.question__answers {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.question__answers-item {
+  cursor: pointer;
+}
