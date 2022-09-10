@@ -1,0 +1,14 @@
+.edit-question {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.edit-question__field {
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit-question__btn {
+  width: 100%;
+}

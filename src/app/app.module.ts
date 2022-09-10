@@ -9,6 +9,7 @@ import { EditTestComponent } from './edit-test/edit-test.component';
 import { Routes, RouterModule } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
 import { QuestionComponent } from './components/question/question.component';
+import { EditQuestionComponent } from './components/edit-question/edit-question.component';
 
 const routes: Routes = [
   { path: '', component: MainComponent },
@@ -26,6 +27,7 @@ const routes: Routes = [
     EditTestComponent,
     HeaderComponent,
     QuestionComponent,
+    EditQuestionComponent,
   ],
   imports: [BrowserModule, RouterModule.forRoot(routes)],
   providers: [],
