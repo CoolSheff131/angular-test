@@ -1,0 +1,14 @@
+import { Component, ViewChild, ViewContainerRef } from '@angular/core';
+import { FieldWrapper } from '@ngx-formly/core';
+
+@Component({
+  selector: 'formly-wrapper-answers',
+  template: `
+    <ng-container #fieldComponent></ng-container>
+    <button class="edit-question__btn" onclick="props.onClick">
+      Добавить вопрос
+    </button>
+  `,
+  styleUrls: ['./questions-wrapper.component.css'],
+})
+export class CustomQuestionsWrapper extends FieldWrapper {}
