@@ -1,4 +1,4 @@
-.test {
+.test-result {
   max-width: 980px;
   margin: 0 auto;
   box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, 0.2);
@@ -8,23 +8,23 @@
   height: 100%;
 }
 
-.test__title {
+.test-result__title {
   font-size: 24px;
   font-weight: 700;
   margin-top: 10px;
 }
 
-.test__questions {
+.test-result__questions {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.test__questions-item:not(:last-child) {
+.test-result__questions-item:not(:last-child) {
   border-bottom: 2px solid #555;
 }
 
-.test__questions-finish-btn {
+.test-result__questions-finish-btn {
   display: block;
   width: 100%;
   margin-top: 20px;

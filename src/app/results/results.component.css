@@ -23,3 +23,31 @@
   display: flex;
   justify-content: space-between;
 }
+
+.results__table {
+  display: flex;
+  flex-direction: column;
+}
+
+.results__table-body {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.results__table-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.results__table-cell {
+  display: block;
+  box-sizing: border-box;
+  width: 25%;
+}
+
+.results__table-cell:not(:last-child) {
+  border-right: 1px solid black;
+}
+
+.results__table-row:not(:last-child) {
+  border-bottom: 1px solid gray;
+}

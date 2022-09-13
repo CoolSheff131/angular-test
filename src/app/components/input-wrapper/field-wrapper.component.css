@@ -1,5 +1,4 @@
 .edit-question__field {
   display: flex;
-  background-color: red;
   justify-content: space-between;
 }

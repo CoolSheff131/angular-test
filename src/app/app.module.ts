@@ -19,10 +19,12 @@ import { CustomAnswerWrapper } from './components/answer-wrapper/answer-wrapper.
 import { CustomAnswersWrapper } from './components/answers-wrapper/answers-wrapper.component';
 import { CustomQuestionWrapper } from './components/question-wrapper/question-wrapper.component';
 import { CustomQuestionsWrapper } from './components/questions-wrapper/questions-wrapper.component';
+import { TestResultComponent } from './test-result/test-result.component';
 
 const routes: Routes = [
   { path: '', component: MainComponent },
   { path: 'test', component: TestComponent },
+  { path: 'test-result', component: TestResultComponent },
   { path: 'results', component: ResultsComponent },
   { path: 'edit-test', component: EditTestComponent },
 ];
@@ -44,6 +46,7 @@ const routes: Routes = [
     CustomAnswersWrapper,
     CustomQuestionWrapper,
     CustomQuestionsWrapper,
+    TestResultComponent,
   ],
   imports: [
     BrowserModule,
